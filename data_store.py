@@ -1,6 +1,5 @@
-from box import Box
 
-DATA_STORE = Box({
+DATA_STORE = {
     'attraction': [
         {
             'id': 1,
@@ -113,5 +112,5 @@ DATA_STORE = Box({
             'reviews': [],
         },
     ]
-})
+}
 

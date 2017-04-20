@@ -10,7 +10,7 @@ def attraction_list():
     return DATA_STORE.attraction
 
 def attraction_instance(instance_id: int = 1):
-    attraction = DATA_STORE.attraction[instance_id]
+    attraction = DATA_STORE['attraction'][instance_id]
     return attraction
 
 app = App(routes=[
