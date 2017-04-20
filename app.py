@@ -7,7 +7,7 @@ def welcome():
     return {'message': 'Welcome to EasyTrip APIs!'}
 
 def attraction_list():
-    return DATA_STORE.attraction
+    return DATA_STORE['attraction']
 
 def attraction_instance(instance_id: int = 1):
     attraction = DATA_STORE['attraction'][instance_id]
